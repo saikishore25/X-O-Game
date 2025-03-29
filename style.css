@@ -1,0 +1,135 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+/* NAVBAR SECTION */
+#nav{
+
+    background-color: rgb(37,9,37);
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.main-nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+
+.title h1 {
+
+    color: white;
+    cursor: pointer;
+
+    
+    
+    
+}
+
+.main-nav ul li a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav ul li a:hover{
+
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.dummy{
+
+    width: 150px;
+}
+
+.fa-solid{
+
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+
+/* GAME AREA */
+
+.game-container{
+
+    display: flex;
+    margin:50px 0px;
+    justify-content: center;
+   
+}
+
+.main-game{
+
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 17vh);
+
+}
+
+.box{
+
+    border: 2px solid black;
+    font-size: 2vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box:hover{
+
+    background-color:rgba(146, 95, 165, 0.1)
+
+}
+
+.game-info{
+
+    margin: 0px 10px;
+}
+
+.gif{
+
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+
+.bt{
+
+    border-top: 0;
+
+}
+
+.bb{
+
+    border-bottom: 0;
+}
+
+.bl{
+
+    border-left: 0;
+}
+
+.br{
+
+    border-right: 0;
+}
